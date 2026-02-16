@@ -1,0 +1,15 @@
+# Python artifacts
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# virtual environments
+venv/
+.env
+
+# log files
+*.log
+
+# ultralytics outputs
+runs/
