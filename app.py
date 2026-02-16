@@ -17,7 +17,7 @@ app = Flask(__name__)
 # will live alongside this file.  BASE_DIR points to the same directory
 # so the service is self-contained.
 BASE_DIR = os.path.abspath(os.path.dirname(__file__))
-MODEL_PATH = os.path.join(BASE_DIR, "model", "best.pt")
+MODEL_PATH = os.path.join(BASE_DIR,"best.pt")
 if not os.path.exists(MODEL_PATH):
     raise FileNotFoundError(
         f"Model file not found at {MODEL_PATH}. \n"
